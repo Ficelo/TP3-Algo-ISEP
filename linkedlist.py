@@ -215,7 +215,7 @@ class Stack(LinkedList):
 if __name__ == '__main__':
 
     
-    test = LinkedList([1])
+    test = LinkedList([1])https://moodle-ovh.isep.fr/moodle/mod/organizer/view.php?id=26053
     test.insert(0, 0)
     print(test)
 

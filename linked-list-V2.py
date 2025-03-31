@@ -215,20 +215,20 @@ class Queue(LinkedList):
 
 
 if __name__ == '__main__':
-    # list = LinkedList([1, 2, 3, 4, 5])
-    # print(list)
-    # print(f"size : {list.getLength()}")
-    # list.insert(3.5, 3)
-    # print(list)
-    # list.insertSorted(4.5)
-    # print(list)
-    # print(list.get(2))
-    # list.remove(0)
-    # print(list)
-    # print(list.indexOf(2))
+    list = LinkedList([1, 2, 3, 4, 5])
+    print(list)
+    print(f"size : {list.getLength()}")
+    list.insert(3.5, 3)
+    print(list)
+    list.insertSorted(4.5)
+    print(list)
+    print(list.get(2))
+    list.remove(0)
+    print(list)
+    print(list.indexOf(2))
 
-    # unsortedList = LinkedList([3, 5, 9, 10, 28, 57, 28, 9, 29, 88, 21, 4, 213])
-    # print(sortLinkedList(unsortedList))
+    unsortedList = LinkedList([3, 5, 9, 10, 28, 57, 28, 9, 29, 88, 21, 4, 213])
+    print(sortLinkedList(unsortedList))
 
     # stack = Stack()
 
